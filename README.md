@@ -67,7 +67,7 @@ This project aims to:
 
 - **Java Version**: Java 11 or higher
 - **IDE**: Any Java-compatible IDE (e.g., IntelliJ IDEA, Eclipse, NetBeans)
-- 
+
 ## Example Output
 
     Before sorting:
