@@ -29,8 +29,9 @@ public class Main {
             heapsort(houses);
 
             System.out.println("----------------------------");
+
             // Display houses after sorting
-            System.out.println("After sorting:");
+            System.out.println("After sorting (Highest to Lowest):");
             printHouses(houses);
 
             // Demonstrate copy constructor and deep copy
@@ -44,6 +45,7 @@ public class Main {
             PriorityQueueHeap deepCopiedPq = pq.deepCopy();
 
             System.out.println("----------------------------");
+
             // Display lengths of the priority queues
             System.out.println("Original PQ length: " + pq.getLength());
             System.out.println("Copied PQ length: " + copiedPq.getLength());
