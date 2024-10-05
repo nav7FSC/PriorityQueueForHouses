@@ -28,6 +28,7 @@ public class Main {
             // Sort houses using heapsort
             heapsort(houses);
 
+            // A separator line for better readability in the console output
             System.out.println("----------------------------");
 
             // Display houses after sorting
@@ -44,6 +45,7 @@ public class Main {
             PriorityQueueHeap copiedPq = new PriorityQueueHeap(pq);
             PriorityQueueHeap deepCopiedPq = pq.deepCopy();
 
+            // A separator line for better readability in the console output
             System.out.println("----------------------------");
 
             // Display lengths of the priority queues
